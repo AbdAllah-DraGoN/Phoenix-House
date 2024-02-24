@@ -35,6 +35,11 @@ body {
   );
   --gradient-white: linear-gradient(to bottom, #fff 40%, #fff0 85%, #fff0);
 }
+@media (max-width: 550px) {
+  :root {
+    --section-H: calc(95vh - 6.8rem);
+  }
+
 a {
   text-decoration: none;
 }
