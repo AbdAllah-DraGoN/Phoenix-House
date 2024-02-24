@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <!-- Font Awesome Library v6-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- kufi Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">
+          <img src="images/logo/main-logo.png" alt="" />
+        </a>
+        <div class="menu">
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-box">
+            <li class="menu-logo">
+              <img src="images/logo/menu-logo.png" alt="" />
+            </li>
+            <li class="contact-us btn"><a href="services.html">خدماتنا</a></li>
+            <li class="log-in btn"><a href="login.html">تسجيل الدخول</a></li>
+            <li class="fav btn">
+              <a href="love.html"
+                >المفضلة<i
+                  class="fa-solid fa-heart btn-ico"
+                  style="color: #d10000"
+                ></i
+              ></a>
+            </li>
+            <li class="my-show btn">
+              <a href="myHouse.html"
+                >إعلانى<i class="fa-solid fa-user btn-ico"></i
+              ></a>
+            </li>
+            <li class="so-icons">
+              <a href="#"> <i class="fa-brands fa-facebook-f so-ico"></i></a>
+              <i class="fa-brands fa-instagram so-ico"></i>
+              <i class="fa-brands fa-youtube so-ico"></i>
+              <i class="fa-brands fa-tiktok so-ico"></i>
+            </li>
+            <li class="msg-logo">
+              <a href="massage.html">
+                <img src="images/logo/phone-msg-logo.png" alt=""
+              /></a>
+            </li>
+            <li class="rating">
+              <span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i>
+              </span>
+              <span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Search Section -->
+    <section>
+      <img
+        src="images/Backgrounds/tall-background.png"
+        alt=""
+        class="back-tall"
+      />
+      <img src="images/Backgrounds/mobile-back.png" class="mobile-back" />
+      <div class="container">
+        <div class="search-hed">
+          إبحث<i
+            class="fa-solid fa-magnifying-glass fa-flip-horizontal search-icon"
+          ></i>
+        </div>
+        <form class="search">
+          <div class="search-box">
+            <select name="الغرض" id="">
+              <option value="0" selected disabled class="select-label">
+                الغرض
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">بيع</option>
+              <option value="2" disabled>إيجار</option>
+            </select>
+            <select name="القسم" id="">
+              <option value="0" selected disabled class="select-label">
+                القسم
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">أراضى</option>
+              <option value="2">شقق</option>
+              <option value="3" disabled>دوبليكس</option>
+              <option value="4" disabled>ستوديو</option>
+              <option value="5" disabled>شاليه</option>
+              <option value="6" disabled>عمارة</option>
+              <option value="7" disabled>فلل</option>
+              <option value="8" disabled>مولات</option>
+              <option value="9" disabled>فنادق</option>
+              <option value="10" disabled>محلات</option>
+              <option value="11" disabled>مخازن</option>
+              <option value="12" disabled>مطاعم وكافيهات</option>
+              <option value="13" disabled>مبنى إدارى</option>
+              <option value="14" disabled>مكاتب</option>
+              <option value="15" disabled>مستشفى</option>
+              <option value="16" disabled>مصانع</option>
+              <option value="17" disabled>مدارس</option>
+              <option value="18" disabled>محطة بنزين</option>
+              <option value="19" disabled>مدافن ومقابر</option>
+              <option value="20" disabled>عقارات أخرى</option>
+            </select>
+            <select name="المحافظة" id="">
+              <option value="0" selected disabled class="select-label">
+                المحافظة
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">السادس من أكتوبر</option>
+              <option value="2" disabled>القاهرة</option>
+              <option value="3" disabled>الجيزة</option>
+              <option value="4" disabled>الإسكندرية</option>
+              <option value="5" disabled>العين السخنة</option>
+              <option value="6" disabled>أسوان</option>
+              <option value="7" disabled>أسيوط</option>
+              <option value="8" disabled>الإسماعلية</option>
+              <option value="9" disabled>الأقصر</option>
+              <option value="10" disabled>البحر الأحمر</option>
+              <option value="11" disabled>البحيرة</option>
+              <option value="12" disabled>السويس</option>
+              <option value="13" disabled>الشرقية</option>
+              <option value="14" disabled>الغربية</option>
+              <option value="15" disabled>الفيوم</option>
+              <option value="16" disabled>مطروح</option>
+              <option value="17" disabled>كفرالشيخ</option>
+              <option value="18" disabled>قنا</option>
+              <option value="19" disabled>سوهاج</option>
+              <option value="20" disabled>دمياط</option>
+              <option value="21" disabled>جنوب سيناء</option>
+              <option value="22" disabled>بورسعيد</option>
+              <option value="23" disabled>بنى سويف</option>
+              <option value="24" disabled>المنيا</option>
+              <option value="25" disabled>المنوفية</option>
+              <option value="26" disabled>القليوبية</option>
+            </select>
+            <select name="المنطقة" id="">
+              <option value="0" selected disabled class="select-label">
+                المنطقة
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">منطقة 800 فدان</option>
+              <option value="2" disabled>الحصرى</option>
+              <option value="3" disabled>دجله بالمز</option>
+              <option value="4" disabled>سكن مصر</option>
+              <option value="5" disabled>بيت العيلة</option>
+              <option value="6" disabled>منطقة 103 عمارة</option>
+              <option value="7" disabled>حى الزمالك</option>
+              <option value="8" disabled>حى السكرية</option>
+              <option value="9" disabled>الشباب</option>
+              <option value="10" disabled>ارض المخابرات</option>
+              <option value="11" disabled>التويعات الشمالية</option>
+              <option value="12" disabled>الحى المتميز</option>
+              <option value="13" disabled>الشيخ زايد</option>
+              <option value="14" disabled>الفردوس ستى</option>
+              <option value="15" disabled>المنطقة الصناعية</option>
+              <option value="16" disabled>بالم هيلز</option>
+              <option value="17" disabled>بيتا جاردن</option>
+              <option value="18" disabled>حدائق اكتوبر</option>
+              <option value="19" disabled>حدائق المهندسين</option>
+              <option value="20" disabled>حى الشجار</option>
+              <option value="21" disabled>حى البستان</option>
+              <option value="22" disabled>حى البشاير</option>
+              <option value="23" disabled>دريم لاند</option>
+              <option value="24" disabled>رويال هيلز</option>
+              <option value="25" disabled>صفوة ستى</option>
+              <option value="26" disabled>غرب سوميد</option>
+              <option value="27" disabled>مدينة سفينكس</option>
+              <option value="28" disabled>الأحياء</option>
+            </select>
+            <select name="الدور" id="">
+              <option value="0" selected disabled class="select-label">
+                الدور
+              </option>
+              <option value="1">بيزمنت (بدروم)</option>
+              <option value="2">أرضي</option>
+              <option value="3">أرضي مرتفع</option>
+              <option value="4">1</option>
+              <option value="5">2</option>
+              <option value="6">3</option>
+              <option value="7">4</option>
+              <option value="8">5</option>
+              <option value="9">6</option>
+              <option value="10">7</option>
+              <option value="11">8</option>
+              <option value="12">9</option>
+              <option value="13">أكثر</option>
+            </select>
+            <select name="عدد الغرف" id="">
+              <option value="0" selected class="select-label">عدد الغرف</option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">أكثر</option>
+            </select>
+            <span class="sm-box">
+              السعر
+              <input type="number" placeholder="من" class="frst" />
+              <input type="number" placeholder="الى" />
+            </span>
+            <span class="sm-box">
+              المساحة
+              <input type="number" placeholder="من" />
+              <input type="number" placeholder="الى" />
+            </span>
+
+            <select name="الاحياء" id="">
+              <option value="0" selected disabled class="select-label">
+                الاحياء
+              </option>
+              <!-- <option value="0" >All</option> -->
+              <option value="1">الحى الاول</option>
+              <option value="2">الحى الثاني</option>
+              <option value="3">الحي الثالث</option>
+              <option value="4">الحي الرابع</option>
+              <option value="5">الحي الخامس</option>
+              <option value="6">الحي السادس</option>
+              <option value="7">الحي السابع</option>
+              <option value="8">الحي الثامن</option>
+              <option value="9">الحي التاسع</option>
+              <option value="10">الحي العاشر</option>
+              <option value="11">الحي الحادي عشر</option>
+              <option value="12">الحي الثاني عشر</option>
+            </select>
+            <select name="الفرش" id="">
+              <option value="0" selected disabled class="select-label">
+                الفرش
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">مفروش</option>
+              <option value="2">غير مفروش</option>
+            </select>
+            <select name="قابلية التمويل العقارى" id="">
+              <option value="0" selected disabled class="select-label">
+                قابلية التمويل العقارى
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1" disabled>قابل للتمويل العقارى</option>
+              <option value="2">غير قابل للتمويل العقارى</option>
+            </select>
+            <select name="طريقة الدفع" id="">
+              <option value="0" selected disabled class="select-label">
+                طريقة الدفع
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">كاش</option>
+              <option value="2">تقسيط</option>
+            </select>
+          </div>
+          <div class="mng-btn">
+            <input type="reset" name="" id="" class="reset-btn" value="X" />
+            <a class="submit" href="show.html">
+              <span class="grdn-txt-gold submit-btn">إبحث</span>
+              <i
+                class="fa-solid fa-magnifying-glass fa-flip-horizontal search-icon"
+              ></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Search Section -->
+    <!-- <div class="container to-main">
+      <span class="btn-to-main"
+        >الصفحة الرئيسية <i class="fa-solid fa-house"></i
+      ></span>
+    </div> -->
+
+    <script src="JS/all.min.js"></script>
+  </body>
+</html>

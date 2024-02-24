@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Page</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/add.css" />
+    <!-- Font Awesome Library v6-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- kufi Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">
+          <img src="images/logo/main-logo.png" alt="" />
+        </a>
+        <div class="menu">
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-box">
+            <li class="menu-logo">
+              <img src="images/logo/menu-logo.png" alt="" />
+            </li>
+            <li class="contact-us btn"><a href="services.html">خدماتنا</a></li>
+            <li class="log-in btn"><a href="login.html">تسجيل الدخول</a></li>
+            <li class="fav btn">
+              <a href="love.html"
+                >المفضلة<i
+                  class="fa-solid fa-heart btn-ico"
+                  style="color: #d10000"
+                ></i
+              ></a>
+            </li>
+            <li class="my-show btn">
+              <a href="myHouse.html"
+                >إعلانى<i class="fa-solid fa-user btn-ico"></i
+              ></a>
+            </li>
+            <li class="so-icons">
+              <a href="#"> <i class="fa-brands fa-facebook-f so-ico"></i></a>
+              <i class="fa-brands fa-instagram so-ico"></i>
+              <i class="fa-brands fa-youtube so-ico"></i>
+              <i class="fa-brands fa-tiktok so-ico"></i>
+            </li>
+            <li class="msg-logo">
+              <a href="massage.html">
+                <img src="images/logo/phone-msg-logo.png" alt=""
+              /></a>
+            </li>
+            <li class="rating">
+              <span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i> </span
+              ><span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i>
+              </span>
+              <span class="star-icon">
+                <i class="fa-regular fa-star str-ico no"></i>
+                <i class="fa-solid fa-star str-ico yes"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <div class="section-title">
+      إعرض<i class="fas fa-book-open s-title-icon"></i>
+    </div>
+    <!-- Start content -->
+    <div class="show-content">
+      <img src="images/Backgrounds/B-G&Build.png" alt="" class="back-gr" />
+      <img src="images/Backgrounds/mobile-back.png" class="mobile-back" />
+      <div class="container">
+        <form class="add">
+          <img src="images/Backgrounds/Cell-Home.png" alt="" />
+          <select name="" id="" class="sm-box" required>
+            <option value="0" disabled selected style="display: none">
+              الغرض
+            </option>
+            <option value="1">بيع</option>
+            <option value="2">إيجار</option>
+          </select>
+          <select name="" id="" class="sm-box" required>
+            <option value="0" disabled selected style="display: none">
+              القسم
+            </option>
+            <option value="1">أراضى</option>
+            <option value="2">شقق</option>
+            <option value="3">دوبليكس</option>
+            <option value="4">ستوديو</option>
+            <option value="5">شاليه</option>
+            <option value="6">عمارة</option>
+            <option value="7">فلل</option>
+            <option value="8">مولات</option>
+            <option value="9">فنادق</option>
+            <option value="10">محلات</option>
+            <option value="11">مخازن</option>
+            <option value="12">مطاعم وكافيهات</option>
+            <option value="13">مبنى إدارى</option>
+            <option value="14">مكاتب</option>
+            <option value="15">مستشفى</option>
+            <option value="16">مصانع</option>
+            <option value="17">مدارس</option>
+            <option value="18">محطة بنزين</option>
+            <option value="19">مدافن ومقابر</option>
+            <option value="20">عقارات أخرى</option>
+          </select>
+          <input type="text" class="sm-box" required placeholder="الموضوع" />
+          <input
+            type="text"
+            class="sm-box"
+            required
+            placeholder="المساحة بالمتر"
+          />
+          <input type="text" class="sm-box" required placeholder="عدد الغرف" />
+          <input
+            type="text"
+            class="sm-box"
+            required
+            placeholder="عدد الحمامات"
+          />
+          <input type="text" class="sm-box" required placeholder="رقم الدور" />
+          <input
+            type="text"
+            class="sm-box"
+            required
+            placeholder="نوع التشطيب"
+          />
+          <select name="" id="" class="sm-box" required>
+            <option value="0" disabled selected style="display: none">
+              الفرش
+            </option>
+            <option value="1">مفروش</option>
+            <option value="2">غير مفروش</option>
+          </select>
+          <input type="text" class="sm-box" required placeholder="وصف دقيق" />
+          <input type="text" class="sm-box" required placeholder="المحافظة" />
+          <input type="text" class="sm-box" required placeholder="المنطقة" />
+          <input
+            type="text"
+            class="sm-box"
+            required
+            placeholder="الموقع بالتفصيل"
+          />
+          <select name="" id="" class="sm-box" required>
+            <option value="0" disabled selected style="display: none">
+              إمكانية التمويل
+            </option>
+            <option value="1">قابل للتمويل العقارى</option>
+            <option value="2">غير قابل للتمويل العقارى</option>
+          </select>
+          <input type="text" class="sm-box" required placeholder="سعر المتر" />
+          <input
+            type="text"
+            class="sm-box"
+            required
+            placeholder="إجمالى السعر"
+          />
+          <select name="" id="" class="sm-box" required>
+            <option value="0" disabled selected style="display: none">
+              نوع المعلن
+            </option>
+            <option value="1">مالك</option>
+            <option value="2">سمسار</option>
+            <option value="3">فريق عمل</option>
+          </select>
+          <select name="" id="" class="sm-box" required required>
+            <option value="0" disabled selected style="display: none">
+              طريقة الدفع
+            </option>
+            <option value="1">كاش</option>
+            <option value="2">تقسيط</option>
+          </select>
+          <input type="text" class="sm-box" required placeholder="اسم المعلن" />
+          <input type="text" class="sm-box" required placeholder="رقم الهاتف" />
+          <span class="sm-box">
+            صور توضيحية
+            <i class="fa-solid fa-camera icon"></i>
+
+            <input type="file" class="file" required />
+          </span>
+          <span class="sm-box">
+            فيديو توضيحى
+            <i class="fa-solid fa-video icon"></i>
+
+            <input type="file" class="file" required />
+          </span>
+          <input type="reset" class="reset" value="حذف التحديدات" />
+          <span class="add-btn">
+            <a class="grdn-txt-gold" href="near-add.html">ضيف عقارك</a>
+          </span>
+        </form>
+      </div>
+    </div>
+    <!-- End content -->
+    <script src="JS/all.min.js"></script>
+  </body>
+</html>

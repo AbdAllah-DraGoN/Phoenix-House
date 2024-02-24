@@ -1,0 +1,103 @@
+/* For hide Arrows From Number Input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Start Msg Page */
+.msg-page {
+  height: var(--section-H);
+  position: relative;
+}
+
+.msg-page .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.65rem;
+  padding-top: 0.66rem;
+}
+.msg-page .container .msg-logo-title {
+  width: 7.33rem;
+}
+.msg-page .container .msg-box {
+  width: 90%;
+  height: 26.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  background-image: var(--gradient-black);
+  border-radius: 3.33rem;
+  padding: 1.65rem 3.33rem;
+  margin: 1.33rem 0;
+}
+.msg-page .container .msg-box input {
+  height: 3.55rem;
+  padding: 0 1rem;
+  font-size: 1.66rem;
+  font-weight: bold;
+  border-radius: 1.33rem;
+  background-color: var(--box-main-coler);
+}
+.msg-page .container .msg-box input.txt,
+.msg-page .container .msg-box input.num {
+  width: 23.33rem;
+  margin-left: 30%;
+  box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+}
+.msg-page .container .msg-box input.msg {
+  width: 75%;
+  box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+}
+.msg-page .container .msg-box span.submit {
+  width: 15%;
+  border-radius: 1.33rem;
+  background-color: var(--box-main-coler);
+  box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+  text-align: center;
+}
+.msg-page .container .msg-box span.submit input {
+  cursor: pointer;
+}
+.msg-page .container .msg-box span.submit:hover {
+  transform: translate(-0.133rem, 0.5rem);
+  box-shadow: -0.066rem 0.2rem 0px var(--box-second-coler) !important;
+}
+
+/* Medai */
+@media (max-width: 550px) {
+  .mobile-back {
+    top: -6.8rem;
+  }
+  .msg-page .container {
+    height: 85%;
+
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  .msg-page .container .msg-box {
+    width: 100%;
+    height: 60%;
+    padding: 2rem;
+    margin: 4rem 0;
+  }
+  .msg-page .container .msg-box input {
+    height: 4.5rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+  }
+  .msg-page .container .msg-box input.txt,
+  .msg-page .container .msg-box input.num {
+    width: 60%;
+  }
+  .msg-page .container .msg-box input.msg {
+    width: 73%;
+  }
+  .msg-page .container .msg-box span.submit {
+    width: 23%;
+  }
+}

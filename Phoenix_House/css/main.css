@@ -1,0 +1,148 @@
+/* Start Home Page */
+section {
+  padding: 1.6rem 0;
+}
+section .back-G {
+  width: 35rem;
+  height: 30rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-55%);
+  z-index: -1;
+}
+section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+section .container .content {
+  width: 58%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+section .content h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 5.33rem;
+  font-weight: 900;
+  font-family: "Lalezar", system-ui;
+}
+section .content p {
+  text-align: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.6;
+  padding-bottom: 1.33rem;
+}
+section .content .btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+}
+section .content .btns .btn {
+  width: 12rem;
+  height: 4.33rem;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 2.66rem;
+  background-image: var(--gradient-gold);
+  box-shadow: 0 0.66rem 0px var(--text-main-coler);
+  color: var(--text-main-coler);
+  cursor: pointer;
+}
+.building-logo {
+  display: none;
+}
+
+.win-msg-logo {
+  height: 5rem;
+  width: 4.8rem;
+  margin: 1.33rem;
+  cursor: pointer;
+}
+.win-msg-logo:hover {
+  transform: translate(0, 0.33rem);
+}
+/* End Home Page */
+section .content .btns .btn:hover {
+  transform: translate(0, 0.5rem);
+  box-shadow: 0 0.2rem 0px var(--text-main-coler) !important;
+}
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 5rem;
+}
+footer hr {
+  height: 0.3rem;
+  background-color: var(--text-main-coler);
+  border-radius: 0.66rem;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+footer ul li {
+  font-size: 2.2rem;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+footer ul li .so-ico,
+footer ul li .str-ico {
+  cursor: pointer;
+}
+
+/*  */
+@media (max-width: 550px) {
+  section .container .content {
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+  }
+  section .content .btns .btn {
+    font-size: 2.1rem;
+    border-radius: 1.7rem;
+  }
+  .building-logo {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .building-logo {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 360px) {
+  section .container .content {
+    width: 100%;
+  }
+  section .content p {
+    font-size: 1.1rem;
+  }
+}
