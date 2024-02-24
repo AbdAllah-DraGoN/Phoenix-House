@@ -251,6 +251,18 @@ section.main {
     height: 530px;
   }
 }
+@media (min-width: 1700px) {
+  .container {
+    width: 1650px;
+  }
+  :root {
+    font-size: 20px;
+  }
+  .back-tall {
+    width: 1680px;
+    height: 625px;
+  }
+}
 /* End Media Queries */
 
 /* Start Home Page */
