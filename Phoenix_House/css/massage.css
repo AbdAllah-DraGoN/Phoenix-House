@@ -33,7 +33,7 @@ input::-webkit-inner-spin-button {
   background-image: var(--gradient-black);
   border-radius: 3.33rem;
   padding: 1.65rem 3.33rem;
-  margin: 1.33rem 0;
+  margin: 1.33rem 0 4rem;
 }
 .msg-page .container .msg-box input {
   height: 3.55rem;
