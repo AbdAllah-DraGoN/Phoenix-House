@@ -366,7 +366,7 @@ header .container .menu .menu-box li.my-show {
   header .container .menu .menu-box {
     display: none;
     position: absolute;
-    height: calc(100vh - 2.5rem);
+    height: calc(95vh - 2.5rem);
     width: 15rem;
     top: -0.5rem;
     right: 0;
