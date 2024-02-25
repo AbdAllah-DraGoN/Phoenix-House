@@ -105,6 +105,9 @@ footer ul a {
   display: flex;
   color: var(--text-main-coler);
 }
+.win-so-icons .so-ico:not(:last-child) {
+  opacity: 70%;
+}
 footer ul li.win-rating {
   justify-content: center;
 }

@@ -412,6 +412,10 @@ header .container .menu .menu-box li.my-show {
     color: var(--box-main-coler);
     cursor: pointer;
   }
+  .so-icons .so-ico:not(:first-child) {
+    opacity: 70%;
+  }
+
   .msg-logo {
     display: inline-block;
     margin-top: auto;
