@@ -101,6 +101,9 @@ footer ul li {
   justify-content: space-between;
   margin: 1rem 0;
 }
+footer ul li.win-rating {
+    justify-content: center;
+}
 footer ul li .so-ico,
 footer ul li .str-ico {
   cursor: pointer;
