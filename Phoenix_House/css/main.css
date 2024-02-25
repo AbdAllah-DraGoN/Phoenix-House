@@ -101,8 +101,12 @@ footer ul li {
   justify-content: space-between;
   margin: 1rem 0;
 }
+footer ul a {
+  display: flex;
+  color: var(--text-main-coler);
+}
 footer ul li.win-rating {
-    justify-content: center;
+  justify-content: center;
 }
 footer ul li .so-ico,
 footer ul li .str-ico {
@@ -147,5 +151,10 @@ footer ul li .str-ico {
   }
   section .content p {
     font-size: 1.1rem;
+  }
+}
+@media (min-width: 1700px) {
+  :root {
+    font-size: 24px !important;
   }
 }

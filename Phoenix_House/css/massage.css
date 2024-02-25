@@ -25,15 +25,15 @@ input::-webkit-inner-spin-button {
 }
 .msg-page .container .msg-box {
   width: 90%;
-  height: 26.6rem;
+  height: 20.6rem;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: flex-end;
   justify-content: space-between;
   background-image: var(--gradient-black);
   border-radius: 3.33rem;
-  padding: 1.65rem 3.33rem;
-  margin: 1.33rem 0 4rem;
+  padding: 1.65rem 3.33rem 3rem;
+  margin: 1.33rem 0 12rem;
 }
 .msg-page .container .msg-box input {
   height: 3.55rem;
@@ -48,23 +48,24 @@ input::-webkit-inner-spin-button {
   width: 23.33rem;
   margin-left: 30%;
   box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+  display: none;
 }
 .msg-page .container .msg-box input.msg {
   width: 75%;
-  box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+  box-shadow: -0.2rem 0.5rem 0px var(--box-second-coler);
 }
 .msg-page .container .msg-box span.submit {
   width: 15%;
   border-radius: 1.33rem;
   background-color: var(--box-main-coler);
-  box-shadow: -0.2rem 0.66rem 0px var(--box-second-coler);
+  box-shadow: -0.2rem 0.5rem 0px var(--box-second-coler);
   text-align: center;
 }
 .msg-page .container .msg-box span.submit input {
   cursor: pointer;
 }
 .msg-page .container .msg-box span.submit:hover {
-  transform: translate(-0.133rem, 0.5rem);
+  transform: translate(-0.133rem, 0.3rem);
   box-shadow: -0.066rem 0.2rem 0px var(--box-second-coler) !important;
 }
 
