@@ -23,6 +23,8 @@ section.log-in .container .content form {
   height: 18rem;
   justify-content: space-between;
   margin-bottom: 1rem;
+  margin-top: 2rem;
+  width: fit-content;
 }
 section.log-in .container .content form input {
   width: 26.66rem;
@@ -37,7 +39,9 @@ section.log-in .container .content form input {
   margin-bottom: 1rem;
 }
 section.log-in .container .content form .submit {
-  width: 16.66rem;
+  width: 13rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
   border-radius: 2rem;
   margin: 0 auto;
   color: var(--gold-color-2);
@@ -122,7 +126,7 @@ section.log-in .container .content .foot .made-by .one .ring {
     height: 45%;
     align-items: center;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   section.log-in .container .content form input {
     width: 80%;

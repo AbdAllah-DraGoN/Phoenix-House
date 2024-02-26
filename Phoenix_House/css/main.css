@@ -48,9 +48,9 @@ section .content .btns {
   padding: 0 2rem;
 }
 section .content .btns .btn {
-  width: 12rem;
-  height: 4.33rem;
-  font-size: 2.2rem;
+  width: 10rem;
+  height: 3.5rem;
+  font-size: 1.8rem;
   font-weight: 900;
   text-align: center;
   border-radius: 2.66rem;
@@ -59,6 +59,7 @@ section .content .btns .btn {
   color: var(--text-main-coler);
   cursor: pointer;
 }
+
 .building-logo {
   display: none;
 }
@@ -128,7 +129,7 @@ footer ul li .str-ico {
     align-content: space-around;
   }
   section .content .btns .btn {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     border-radius: 1.7rem;
   }
   .building-logo {
