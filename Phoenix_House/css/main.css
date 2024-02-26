@@ -120,7 +120,7 @@ footer ul li .str-ico {
 /*  */
 @media (max-width: 550px) {
   section .container .content {
-    width: 75%;
+    width: 100%;
     height: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -128,13 +128,16 @@ footer ul li .str-ico {
     align-items: center;
     align-content: space-around;
   }
+  section .content p {
+    font-size: 1.8rem;
+  }
   section .content .btns .btn {
     font-size: 1.9rem;
     border-radius: 1.7rem;
   }
   .building-logo {
     display: inline-block;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -142,19 +145,14 @@ footer ul li .str-ico {
     display: none;
   }
 }
-@media (max-width: 450px) {
-  .building-logo {
-    display: inline-block;
-    width: 80%;
-    margin: 0 auto;
+@media (max-width: 430px) {
+  section .content p {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 360px) {
-  section .container .content {
-    width: 100%;
-  }
   section .content p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1700px) {

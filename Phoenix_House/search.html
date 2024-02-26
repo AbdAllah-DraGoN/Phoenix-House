@@ -109,32 +109,7 @@
               <option value="1">بيع</option>
               <option value="2" disabled>إيجار</option>
             </select>
-            <select name="القسم" id="">
-              <option value="0" selected disabled class="select-label">
-                القسم
-              </option>
-              <!-- <option value="0">All</option> -->
-              <option value="1">أراضى</option>
-              <option value="2">شقق</option>
-              <option value="3" disabled>دوبليكس</option>
-              <option value="4" disabled>ستوديو</option>
-              <option value="5" disabled>شاليه</option>
-              <option value="6" disabled>عمارة</option>
-              <option value="7" disabled>فلل</option>
-              <option value="8" disabled>مولات</option>
-              <option value="9" disabled>فنادق</option>
-              <option value="10" disabled>محلات</option>
-              <option value="11" disabled>مخازن</option>
-              <option value="12" disabled>مطاعم وكافيهات</option>
-              <option value="13" disabled>مبنى إدارى</option>
-              <option value="14" disabled>مكاتب</option>
-              <option value="15" disabled>مستشفى</option>
-              <option value="16" disabled>مصانع</option>
-              <option value="17" disabled>مدارس</option>
-              <option value="18" disabled>محطة بنزين</option>
-              <option value="19" disabled>مدافن ومقابر</option>
-              <option value="20" disabled>عقارات أخرى</option>
-            </select>
+
             <select name="المحافظة" id="">
               <option value="0" selected disabled class="select-label">
                 المحافظة
@@ -201,6 +176,50 @@
               <option value="27" disabled>مدينة سفينكس</option>
               <option value="28" disabled>الأحياء</option>
             </select>
+            <select name="الاحياء" id="" disabled>
+              <option value="0" selected disabled class="select-label">
+                الاحياء
+              </option>
+              <!-- <option value="0" >All</option> -->
+              <option value="1">الحى الاول</option>
+              <option value="2">الحى الثاني</option>
+              <option value="3">الحي الثالث</option>
+              <option value="4">الحي الرابع</option>
+              <option value="5">الحي الخامس</option>
+              <option value="6">الحي السادس</option>
+              <option value="7">الحي السابع</option>
+              <option value="8">الحي الثامن</option>
+              <option value="9">الحي التاسع</option>
+              <option value="10">الحي العاشر</option>
+              <option value="11">الحي الحادي عشر</option>
+              <option value="12">الحي الثاني عشر</option>
+            </select>
+            <select name="القسم" id="">
+              <option value="0" selected disabled class="select-label">
+                القسم
+              </option>
+              <!-- <option value="0">All</option> -->
+              <option value="1">أراضى</option>
+              <option value="2">شقق</option>
+              <option value="3" disabled>دوبليكس</option>
+              <option value="4" disabled>ستوديو</option>
+              <option value="5" disabled>شاليه</option>
+              <option value="6" disabled>عمارة</option>
+              <option value="7" disabled>فلل</option>
+              <option value="8" disabled>مولات</option>
+              <option value="9" disabled>فنادق</option>
+              <option value="10" disabled>محلات</option>
+              <option value="11" disabled>مخازن</option>
+              <option value="12" disabled>مطاعم وكافيهات</option>
+              <option value="13" disabled>مبنى إدارى</option>
+              <option value="14" disabled>مكاتب</option>
+              <option value="15" disabled>مستشفى</option>
+              <option value="16" disabled>مصانع</option>
+              <option value="17" disabled>مدارس</option>
+              <option value="18" disabled>محطة بنزين</option>
+              <option value="19" disabled>مدافن ومقابر</option>
+              <option value="20" disabled>عقارات أخرى</option>
+            </select>
             <select name="الدور" id="">
               <option value="0" selected disabled class="select-label">
                 الدور
@@ -219,6 +238,18 @@
               <option value="12">9</option>
               <option value="13">أكثر</option>
             </select>
+
+            <span class="sm-box">
+              السعر
+              <input type="number" placeholder="من" class="frst" />
+              <input type="number" placeholder="الى" />
+            </span>
+            <span class="sm-box">
+              المساحة
+              <input type="number" placeholder="من" />
+              <input type="number" placeholder="الى" />
+            </span>
+
             <select name="عدد الغرف" id="">
               <option value="0" selected class="select-label">عدد الغرف</option>
               <!-- <option value="0">All</option> -->
@@ -232,35 +263,6 @@
               <option value="8">8</option>
               <option value="9">9</option>
               <option value="10">أكثر</option>
-            </select>
-            <span class="sm-box">
-              السعر
-              <input type="number" placeholder="من" class="frst" />
-              <input type="number" placeholder="الى" />
-            </span>
-            <span class="sm-box">
-              المساحة
-              <input type="number" placeholder="من" />
-              <input type="number" placeholder="الى" />
-            </span>
-
-            <select name="الاحياء" id="">
-              <option value="0" selected disabled class="select-label">
-                الاحياء
-              </option>
-              <!-- <option value="0" >All</option> -->
-              <option value="1">الحى الاول</option>
-              <option value="2">الحى الثاني</option>
-              <option value="3">الحي الثالث</option>
-              <option value="4">الحي الرابع</option>
-              <option value="5">الحي الخامس</option>
-              <option value="6">الحي السادس</option>
-              <option value="7">الحي السابع</option>
-              <option value="8">الحي الثامن</option>
-              <option value="9">الحي التاسع</option>
-              <option value="10">الحي العاشر</option>
-              <option value="11">الحي الحادي عشر</option>
-              <option value="12">الحي الثاني عشر</option>
             </select>
             <select name="الفرش" id="">
               <option value="0" selected disabled class="select-label">
@@ -288,7 +290,7 @@
             </select>
           </div>
           <div class="mng-btn">
-            <input type="reset" name="" id="" class="reset-btn" value="X" />
+            <input type="reset" name="" id="" class="reset-btn" value="مسح" />
             <a class="submit" href="show.html">
               <span class="grdn-txt-gold submit-btn">إبحث</span>
               <i
