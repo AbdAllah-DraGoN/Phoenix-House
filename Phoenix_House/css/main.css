@@ -109,13 +109,14 @@ footer ul a {
 .win-so-icons .so-ico:not(:last-child) {
   opacity: 70%;
 }
-footer ul li.win-rating {
+/* footer ul li.win-rating {
   justify-content: center;
-}
+} */
 footer ul li .so-ico,
 footer ul li .str-ico {
   cursor: pointer;
 }
+/*  */
 
 /*  */
 @media (max-width: 550px) {

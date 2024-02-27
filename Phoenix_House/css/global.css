@@ -89,57 +89,59 @@ section.main {
 .win-rating {
   color: var(--gold-color-2);
 }
-.star-icon {
-  display: flex;
-}
-
 .star-icon .yes {
   display: none;
 }
-
-/* Star 5 */
-.star-icon:nth-child(1):hover ~ .star-icon .yes,
-.star-icon:nth-child(1):hover .yes {
-  display: inline;
+form.stars {
+  display: flex;
 }
-.star-icon:nth-child(1):hover ~ .star-icon .no,
-.star-icon:nth-child(1):hover .no {
+input[type="radio"] {
+  appearance: none;
+}
+form.stars .yes {
   display: none;
 }
-/* Star 4 */
-.star-icon:nth-child(2):hover ~ .star-icon .yes,
-.star-icon:nth-child(2):hover .yes {
+/*form.stars input[type="submit"] {
+  margin-left: 1.5rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+  padding: 0.5rem;
+  background: var(--gradient-black);
+  color: var(--box-main-coler);
+  font-weight: 900;
+  font-size: 0.8rem;
+} */
+form.stars label {
+  display: flex;
+}
+form input.star5:checked ~ label .yes {
   display: inline;
 }
-.star-icon:nth-child(2):hover ~ .star-icon .no,
-.star-icon:nth-child(2):hover .no {
+form input.star5:checked ~ label .no {
   display: none;
 }
-/* Star 3 */
-.star-icon:nth-child(3):hover ~ .star-icon .yes,
-.star-icon:nth-child(3):hover .yes {
+form input.star4:checked ~ label .yes {
   display: inline;
 }
-.star-icon:nth-child(3):hover ~ .star-icon .no,
-.star-icon:nth-child(3):hover .no {
+form input.star4:checked ~ label .no {
   display: none;
 }
-/* Star 2 */
-.star-icon:nth-child(4):hover ~ .star-icon .yes,
-.star-icon:nth-child(4):hover .yes {
+form input.star3:checked ~ label .yes {
   display: inline;
 }
-.star-icon:nth-child(4):hover ~ .star-icon .no,
-.star-icon:nth-child(4):hover .no {
+form input.star3:checked ~ label .no {
   display: none;
 }
-/* Star 1 */
-.star-icon:nth-child(5):hover ~ .star-icon .yes,
-.star-icon:nth-child(5):hover .yes {
+form input.star2:checked ~ label .yes {
   display: inline;
 }
-.star-icon:nth-child(5):hover ~ .star-icon .no,
-.star-icon:nth-child(5):hover .no {
+form input.star2:checked ~ label .no {
+  display: none;
+}
+form input.star1:checked ~ label .yes {
+  display: inline;
+}
+form input.star1:checked ~ label .no {
   display: none;
 }
 

@@ -1,0 +1,67 @@
+/* 
+for 5 Stars Select By Hover  
+--------------HTML------------
+<li class="rating">
+  <span class="star-icon">
+    <i class="fa-regular fa-star str-ico no"></i>
+    <i class="fa-solid fa-star str-ico yes"></i> </span
+  ><span class="star-icon">
+    <i class="fa-regular fa-star str-ico no"></i>
+    <i class="fa-solid fa-star str-ico yes"></i> </span
+  ><span class="star-icon">
+    <i class="fa-regular fa-star str-ico no"></i>
+    <i class="fa-solid fa-star str-ico yes"></i> </span
+  ><span class="star-icon">
+    <i class="fa-regular fa-star str-ico no"></i>
+    <i class="fa-solid fa-star str-ico yes"></i>
+  </span>
+  <span class="star-icon">
+    <i class="fa-regular fa-star str-ico no"></i>
+    <i class="fa-solid fa-star str-ico yes"></i>
+  </span>
+</li>
+--------------CSS-------------
+
+.star-icon {
+  display: flex;
+}
+.star-icon:nth-child(1):hover ~ .star-icon .yes,
+.star-icon:nth-child(1):hover .yes {
+  display: inline;
+}
+.star-icon:nth-child(1):hover ~ .star-icon .no,
+.star-icon:nth-child(1):hover .no {
+  display: none;
+}
+.star-icon:nth-child(2):hover ~ .star-icon .yes,
+.star-icon:nth-child(2):hover .yes {
+  display: inline;
+}
+.star-icon:nth-child(2):hover ~ .star-icon .no,
+.star-icon:nth-child(2):hover .no {
+  display: none;
+}
+.star-icon:nth-child(3):hover ~ .star-icon .yes,
+.star-icon:nth-child(3):hover .yes {
+  display: inline;
+}
+.star-icon:nth-child(3):hover ~ .star-icon .no,
+.star-icon:nth-child(3):hover .no {
+  display: none;
+}
+.star-icon:nth-child(4):hover ~ .star-icon .yes,
+.star-icon:nth-child(4):hover .yes {
+  display: inline;
+}
+.star-icon:nth-child(4):hover ~ .star-icon .no,
+.star-icon:nth-child(4):hover .no {
+  display: none;
+}
+.star-icon:nth-child(5):hover ~ .star-icon .yes,
+.star-icon:nth-child(5):hover .yes {
+  display: inline;
+}
+.star-icon:nth-child(5):hover ~ .star-icon .no,
+.star-icon:nth-child(5):hover .no {
+  display: none;
+} */
